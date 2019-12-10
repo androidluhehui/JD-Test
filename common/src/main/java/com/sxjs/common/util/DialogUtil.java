@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.sxjs.common.R;
 
 /**
- * Created by admin on 2017/3/13.
+ * Created by admin
  */
 
 public class DialogUtil {

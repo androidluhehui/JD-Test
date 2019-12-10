@@ -15,7 +15,7 @@ import com.sxjs.common.widget.pulltorefresh.indicator.PtrIndicator;
 
 
 /**
- * Created by admin on 2017/2/23.
+ * Created by admin
  */
 public class JDHeaderView extends PtrFrameLayout implements PtrUIHandler {
 

@@ -24,7 +24,7 @@ import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
 
 /**
- * 22@author：admin on 2017/4/10 14:50.
+ * 22@author：admin
  */
 @Route(path = "/test1/activity")
 public class TestActivity extends BaseActivity implements View.OnClickListener, EasyPermissions.PermissionCallbacks {

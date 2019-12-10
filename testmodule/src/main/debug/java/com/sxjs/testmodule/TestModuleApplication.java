@@ -9,7 +9,7 @@ import com.sxjs.common.CommonConfig;
 import com.sxjs.common.GlobalAppComponent;
 
 /**
- * @author：admin on 2017/4/19 16:03.
+ * @author：admin
  */
 
 public class TestModuleApplication extends Application {

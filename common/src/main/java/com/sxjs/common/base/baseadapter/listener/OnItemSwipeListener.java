@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * Created by luoxw on 2016/6/23.
+ * Created by luoxw
  */
 public interface OnItemSwipeListener {
 

@@ -21,7 +21,7 @@ import static com.sxjs.common.base.baseadapter.BaseQuickAdapter.LOADING_VIEW;
 
 
 /**
- * Created by AllenCoder on 2016/8/03.
+ * Created by AllenCoder
  * <p>
  * This can be useful for applications that wish to implement various forms of click and longclick and childView click
  * manipulation of item views within the RecyclerView. SimpleClickListener may intercept

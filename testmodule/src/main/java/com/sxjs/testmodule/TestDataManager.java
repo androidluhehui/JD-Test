@@ -8,7 +8,7 @@ import io.reactivex.observers.DisposableObserver;
 import okhttp3.ResponseBody;
 
 /**
- * @author：admin on 2018/4/20 18:26.
+ * @author：admin
  */
 
 public class TestDataManager extends BaseDataManager{

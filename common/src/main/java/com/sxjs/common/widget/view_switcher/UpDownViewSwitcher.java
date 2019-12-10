@@ -14,7 +14,7 @@ import com.sxjs.common.R;
 import java.lang.ref.WeakReference;
 
 /**
- * Created by admin on 2017/3/21.
+ * Created by admin
  */
 
 public class UpDownViewSwitcher extends ViewSwitcher {

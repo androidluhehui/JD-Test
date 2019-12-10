@@ -3,7 +3,7 @@ package com.sxjs.common.base.baseadapter.listener;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * Created by luoxw on 2016/6/20.
+ * Created by
  */
 public interface OnItemDragListener {
     void onItemDragStart(RecyclerView.ViewHolder viewHolder, int pos);

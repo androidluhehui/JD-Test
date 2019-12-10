@@ -1,7 +1,7 @@
 package com.sxjs.common.widget.percentlayout;
 
 /**
- * @author：admin on 2017/3/31 15:21.
+ * @author：admin
  */
 
 public final class BuildConfig {

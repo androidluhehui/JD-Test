@@ -15,7 +15,7 @@ import com.sxjs.common.util.DialogUtil;
 import butterknife.Unbinder;
 
 /**
- * Created by admin on 2017/3/15.
+ * Created by admin
  */
 
 public class BaseFragment extends Fragment {

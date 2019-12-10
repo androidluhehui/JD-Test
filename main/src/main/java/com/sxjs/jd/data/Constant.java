@@ -1,7 +1,7 @@
 package com.sxjs.jd.data;
 
 /**
- * Created by admin on 2017/2/22.
+ * Created by admin
  */
 public class Constant {
     public static final int TYPE_TOP_BANNER = 0xff01;

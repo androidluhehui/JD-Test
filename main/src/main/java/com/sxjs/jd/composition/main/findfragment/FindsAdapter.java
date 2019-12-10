@@ -10,7 +10,7 @@ import com.sxjs.jd.entities.FindsBean;
 import com.sxjs.jd.R;
 
 /**
- * Created by admin on 2017/3/22.
+ * Created by admin
  */
 
 public class FindsAdapter extends BaseQuickAdapter<FindsBean.ContentBean,BaseViewHolder> {

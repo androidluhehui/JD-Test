@@ -11,7 +11,7 @@ import com.sxjs.common.R;
 import com.sxjs.common.widget.autoscrollviewpager.BannerAspectRatioMeasure;
 
 /**
- * @author：admin on 2017/3/29 11:54.
+ * @author：admin
  */
 
 public class AspectRatioRelativeLayout extends RelativeLayout{

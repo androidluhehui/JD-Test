@@ -5,7 +5,7 @@ import com.sxjs.common.base.baseadapter.entity.MultiItemEntity;
 import com.sxjs.jd.data.Constant;
 
 /**
- * Created by admin on 2017/2/22.
+ * Created by admin
  */
 public class MultipleItem implements  MultiItemEntity {
     private int positon = -1;

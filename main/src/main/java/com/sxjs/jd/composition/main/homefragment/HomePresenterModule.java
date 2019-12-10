@@ -6,7 +6,7 @@ import dagger.Module;
 import dagger.Provides;
 
 /**
- * Created by admin on 2017/3/12.
+ * Created by admin
  */
 @Module
 public class HomePresenterModule {

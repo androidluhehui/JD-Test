@@ -1,7 +1,7 @@
 package com.sxjs.common;
 
 /**
- * Created by admin on 2017/3/9.
+ * Created by admin
  */
 
 public class CommonConfig {

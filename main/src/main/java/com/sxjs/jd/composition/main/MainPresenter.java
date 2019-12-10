@@ -16,7 +16,7 @@ import io.reactivex.disposables.Disposable;
 import okhttp3.ResponseBody;
 
 /**
-* Created by admin on 2017/03/12
+* Created by admin
 */
 
 public class MainPresenter extends BasePresenter implements MainContract.Presenter{

@@ -6,7 +6,7 @@ import com.sxjs.common.base.baseadapter.BaseQuickAdapter;
 
 
 /**
- * Created by AllenCoder on 2016/8/03.
+ * Created by admin
  *
  *
  * A convenience class to extend when you only want to OnItemClickListener for a subset

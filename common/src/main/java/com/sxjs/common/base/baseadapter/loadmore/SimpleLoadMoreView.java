@@ -4,7 +4,7 @@ package com.sxjs.common.base.baseadapter.loadmore;
 import com.sxjs.common.R;
 
 /**
- * Created by BlingBling on 2016/10/11.
+ * Created by admin
  */
 
 public final class SimpleLoadMoreView extends LoadMoreView {

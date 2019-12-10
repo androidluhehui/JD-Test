@@ -8,7 +8,7 @@ import com.sxjs.common.model.http.NoNetWorkException;
 import io.reactivex.observers.DisposableObserver;
 
 /**
- * @author：admin on 2017/4/18 15:14.
+ * @author：admin
  */
 
 public abstract class ErrorDisposableObserver<T> extends DisposableObserver<T> {

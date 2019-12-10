@@ -6,7 +6,7 @@ import com.sxjs.common.AppComponent;
 import dagger.Component;
 
 /**
- * Created by admin on 2017/3/12.
+ * Created by admin
  */
 @PerFragment
 @Component(dependencies = AppComponent.class , modules = HomePresenterModule.class)

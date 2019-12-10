@@ -34,7 +34,7 @@ import okhttp3.Response;
 
 /**
  * BaseInterceptor，use set okhttp call header
- * Created by Tamic on 2016-06-30.
+ * Created by admin
  */
 public class BaseInterceptor<T> implements Interceptor {
     private Context context;

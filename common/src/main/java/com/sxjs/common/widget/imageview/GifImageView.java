@@ -12,7 +12,7 @@ import com.facebook.drawee.view.SimpleDraweeView;
 import com.sxjs.common.R;
 
 /**
- * @author：admin on 2017/4/17 17:52.
+ * @author：admin
  */
 
 public class GifImageView extends SimpleDraweeView {

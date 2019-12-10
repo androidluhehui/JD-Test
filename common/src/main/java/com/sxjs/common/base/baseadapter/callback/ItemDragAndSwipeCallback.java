@@ -11,7 +11,7 @@ import com.sxjs.common.base.baseadapter.BaseItemDraggableAdapter;
 
 
 /**
- * Created by luoxw on 2016/6/20.
+ * Created by admin
  */
 public class ItemDragAndSwipeCallback extends ItemTouchHelper.Callback {
 

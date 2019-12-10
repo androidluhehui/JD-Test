@@ -14,7 +14,7 @@ import com.sxjs.common.R;
 import java.lang.ref.WeakReference;
 
 /**
- * @author：admin on 2017/4/11 17:26.
+ * @author：admin
  */
 
 public class NoNetWorkNotice {

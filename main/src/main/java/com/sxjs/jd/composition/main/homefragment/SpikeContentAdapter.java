@@ -17,7 +17,7 @@ import com.sxjs.jd.entities.HomeIndex;
 import java.util.List;
 
 /**
- * @author：admin on 2017/3/30 18:00.
+ * @author：admin
  */
 
 public class SpikeContentAdapter extends BaseQuickAdapter<HomeIndex.ItemInfoListBean.ItemContentListBean,BaseViewHolder> {

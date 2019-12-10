@@ -7,7 +7,7 @@ import com.facebook.drawee.generic.GenericDraweeHierarchy;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
- * @author：admin on 2017/3/27 14:31.
+ * @author：admin
  * 此为在SimpleDraweeView基础上做一层包装，防止过度依赖
  */
 

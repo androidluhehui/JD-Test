@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.alibaba.android.arouter.launcher.ARouter;
 
 /**
- * @author：admin on 2017/4/10 14:53.
+ * @author：admin
  * 外部唤起App后uri传给ARouter
  */
 

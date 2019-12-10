@@ -1,7 +1,7 @@
 package com.sxjs.common.model.http;
 
 /**
- * Created by admin on 2017/3/10.
+ * Created by admin
  */
 
 public class NoNetWorkException extends RuntimeException {

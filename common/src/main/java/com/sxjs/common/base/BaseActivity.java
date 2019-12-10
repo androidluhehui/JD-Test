@@ -25,7 +25,7 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by admin on 2017/3/12.
+ * Created by admin
  */
 
 public abstract class BaseActivity extends AppCompatActivity {

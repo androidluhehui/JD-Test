@@ -1,7 +1,7 @@
 package com.sxjs.common.widget.percentlayout;
 
 /**
- * @author：admin on 2017/3/31 15:22.
+ * @author：admin
  */
 /*
  * Copyright (C) 2015 The Android Open Source Project

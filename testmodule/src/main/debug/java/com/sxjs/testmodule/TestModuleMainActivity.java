@@ -10,7 +10,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
- * 22@author：admin on 2017/4/10 14:50.
+ * 22@author：admin
  */
 
 public class TestModuleMainActivity extends AppCompatActivity {

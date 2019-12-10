@@ -3,7 +3,7 @@ package com.sxjs.jd.entities;
 import java.util.List;
 
 /**
- * Created by admin on 2017/3/10.
+ * Created by admin
  */
 
 public class FindsBean {

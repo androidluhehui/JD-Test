@@ -6,7 +6,7 @@ import com.sxjs.common.PerActivity;
 import dagger.Component;
 
 /**
- * Created by admin on 2017/3/12.
+ * Created by admin
  */
 @PerActivity
 @Component(dependencies = AppComponent.class , modules = MainPresenterModule .class)

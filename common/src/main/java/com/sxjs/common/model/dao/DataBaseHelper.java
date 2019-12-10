@@ -6,7 +6,7 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 
 /**
- * Created by admin on 2017/3/10.
+ * Created by admin
  */
 @Singleton
 public class DataBaseHelper {

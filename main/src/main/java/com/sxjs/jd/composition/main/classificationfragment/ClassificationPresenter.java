@@ -8,7 +8,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 /**
- * Created by admin on 2017/3/22.
+ * Created by admin
  */
 
 public class ClassificationPresenter extends BasePresenter implements ClassificationContract.Presenter{

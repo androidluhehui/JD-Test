@@ -5,7 +5,7 @@ import com.sxjs.common.base.baseadapter.BaseViewHolder;
 import com.sxjs.jd.R;
 
 /**
- * Created by admin on 2017/3/22.
+ * Created by admin
  */
 
 public class TypeOfGoodsNameAdapter extends BaseQuickAdapter<String,BaseViewHolder> {

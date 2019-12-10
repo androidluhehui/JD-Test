@@ -3,7 +3,7 @@ package com.sxjs.jd.composition.main;
 import java.util.Map;
 
 /**
- * Created by admin on 2017/3/12.
+ * Created by admin
  */
 
 public interface MainContract {

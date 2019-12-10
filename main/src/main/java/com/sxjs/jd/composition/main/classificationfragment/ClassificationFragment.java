@@ -26,7 +26,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by admin on 2017/3/21.
+ * Created by admin
  */
 
 public class ClassificationFragment extends BaseFragment implements ClassificationContract.View, BaseQuickAdapter.OnItemClickListener {

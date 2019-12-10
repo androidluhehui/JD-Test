@@ -8,7 +8,7 @@ import com.sxjs.common.base.baseadapter.BaseViewHolder;
 
 
 /**
- * Created by BlingBling on 2016/11/11.
+ * Created by admin
  */
 
 public abstract class LoadMoreView {

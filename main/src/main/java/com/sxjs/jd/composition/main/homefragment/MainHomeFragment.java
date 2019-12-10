@@ -29,7 +29,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * @author 作者：admin on 2017/3/15 10:47.
+ * @author 作者：admin
  */
 public class MainHomeFragment extends BaseFragment implements JDHeaderView.RefreshDistanceListener, HomeContract.View, PositionChangedListener, BaseQuickAdapter.RequestLoadMoreListener {
     /**

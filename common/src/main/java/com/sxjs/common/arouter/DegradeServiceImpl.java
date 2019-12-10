@@ -8,7 +8,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.facade.service.DegradeService;
 
 /**
- * @author：admin on 2017/4/10 15:03.
+ * @author：admin
  */
 // 实现DegradeService接口，并加上一个Path内容任意的注解即可
 @Route(path = "/xxx/xxx")

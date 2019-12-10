@@ -8,7 +8,7 @@ import com.facebook.drawee.generic.RoundingParams;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
- * @author：admin on 2017/4/17 14:23.
+ * @author：admin
  * 基于fresco的圆圈图形
  */
 

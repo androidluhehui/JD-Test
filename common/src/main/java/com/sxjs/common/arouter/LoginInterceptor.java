@@ -10,7 +10,7 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.sxjs.common.CommonConfig;
 
 /**
- * @author：admin on 2017/4/10 14:58.
+ * @author：admin
  */
 @Interceptor(priority = 8, name = "登录拦截器")
 public class LoginInterceptor implements IInterceptor {

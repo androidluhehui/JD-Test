@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * @author：admin on 2017/4/7 10:43.
+ * @author：admin
  */
 
 public class SpaceItemDecoration extends RecyclerView.ItemDecoration {

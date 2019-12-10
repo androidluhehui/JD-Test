@@ -6,7 +6,7 @@ import com.sxjs.jd.data.Constant;
 import java.util.List;
 
 /**
- * @author：admin on 2017/3/28 14:18.
+ * @author：admin
  */
 
 public class HomeIndex  {

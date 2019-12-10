@@ -40,7 +40,7 @@ import retrofit2.http.Url;
 
 /**
  * ApiService
- * Created by Tamic on 2016-06-03.
+ * Created by admin
  */
 public interface BaseApiService {
     @POST()

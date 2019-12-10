@@ -11,7 +11,7 @@ import android.util.Log;
 import com.sxjs.common.widget.NoNetWorkNotice;
 
 /**
- * @author：admin on 2017/4/11 18:06.
+ * @author：admin
  */
 
 public class NetWorkChangeBroadcastReceiver extends BroadcastReceiver {

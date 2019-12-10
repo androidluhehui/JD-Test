@@ -10,7 +10,7 @@ import com.facebook.drawee.generic.RoundingParams;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
- * @author：admin on 2017/4/17 17:08.
+ * @author：admin
  * 加载图片修改参数的帮助类
  */
 
