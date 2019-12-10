@@ -1,12 +1,13 @@
 package com.sxjs.jd.composition.main.my;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.app_common.service.ITestService;
@@ -14,7 +15,7 @@ import com.sxjs.common.base.BaseFragment;
 import com.sxjs.jd.R;
 
 /**
- * @author liuxiaodong
+ * @author admin
  * @date 2018/12/1
  * @description
  */

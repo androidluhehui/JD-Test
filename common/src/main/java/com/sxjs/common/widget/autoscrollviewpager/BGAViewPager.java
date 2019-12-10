@@ -1,9 +1,10 @@
 package com.sxjs.common.widget.autoscrollviewpager;
 
 import android.content.Context;
-import android.support.v4.view.VelocityTrackerCompat;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.ViewPager;
+import androidx.core.view.VelocityTrackerCompat;
+import androidx.core.view.ViewCompat;
+import androidx.viewpager.widget.ViewPager;
+
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
@@ -31,7 +32,7 @@ public class BGAViewPager extends ViewPager {
     }
 
     @Override
-    public void setPageTransformer(boolean reverseDrawingOrder, PageTransformer transformer) {
+    public void setPageTransformer(boolean reverseDrawingOrder, ViewPager.PageTransformer transformer) {
         /**
          继承ViewPager，重写setPageTransformer方法，移除版本限制，通过反射设置参数和方法
 

@@ -3,18 +3,19 @@ package com.sxjs.common.widget.bottomnavigation;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.ColorRes;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
-import android.support.v4.content.ContextCompat;
+
+import androidx.annotation.ColorRes;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.core.content.ContextCompat;
 import android.text.TextUtils;
 
 /**
  * Class description : Holds data for tabs (i.e data structure which holds all data to paint a tab)
  *
- * @author ashokvarma
+ * @author admin
  * @version 1.0
  * @since 19 Mar 2016
  */

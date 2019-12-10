@@ -3,8 +3,9 @@ package com.sxjs.common.base;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
-import android.support.v4.app.Fragment;
 import android.widget.Toast;
+
+import androidx.fragment.app.Fragment;
 
 import com.sxjs.common.AppComponent;
 import com.sxjs.common.GlobalAppComponent;
@@ -17,7 +18,7 @@ import butterknife.Unbinder;
  * Created by admin on 2017/3/15.
  */
 
-public class BaseFragment extends Fragment{
+public class BaseFragment extends Fragment {
     protected Activity mActivity;
     protected Unbinder unbinder;
     protected Context mContext;

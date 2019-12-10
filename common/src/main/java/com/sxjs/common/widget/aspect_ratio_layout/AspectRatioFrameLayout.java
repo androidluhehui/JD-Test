@@ -2,9 +2,10 @@ package com.sxjs.common.widget.aspect_ratio_layout;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
+
+import androidx.annotation.Nullable;
 
 import com.sxjs.common.R;
 import com.sxjs.common.widget.autoscrollviewpager.BannerAspectRatioMeasure;

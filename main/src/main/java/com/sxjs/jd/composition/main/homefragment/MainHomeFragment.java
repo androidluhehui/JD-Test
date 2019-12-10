@@ -1,15 +1,18 @@
 package com.sxjs.jd.composition.main.homefragment;
 
+import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.sxjs.common.base.BaseFragment;
 import com.sxjs.common.base.baseadapter.BaseQuickAdapter;
 import com.sxjs.common.util.ScreenUtil;
 import com.sxjs.common.widget.headerview.JDHeaderView;
@@ -17,7 +20,6 @@ import com.sxjs.common.widget.pulltorefresh.PtrFrameLayout;
 import com.sxjs.common.widget.pulltorefresh.PtrHandler;
 import com.sxjs.jd.MainDataManager;
 import com.sxjs.jd.R;
-import com.sxjs.common.base.BaseFragment;
 import com.sxjs.jd.R2;
 import com.sxjs.jd.entities.HomeIndex;
 
@@ -29,7 +31,7 @@ import butterknife.ButterKnife;
 /**
  * @author 作者：admin on 2017/3/15 10:47.
  */
-public class MainHomeFragment extends BaseFragment implements JDHeaderView.RefreshDistanceListener ,HomeContract.View, PositionChangedListener, BaseQuickAdapter.RequestLoadMoreListener {
+public class MainHomeFragment extends BaseFragment implements JDHeaderView.RefreshDistanceListener, HomeContract.View, PositionChangedListener, BaseQuickAdapter.RequestLoadMoreListener {
     /**
      * 改变titlebar中icon颜色时的距离
      */
@@ -60,7 +62,6 @@ public class MainHomeFragment extends BaseFragment implements JDHeaderView.Refre
     }
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_recycle, container, false);
@@ -81,9 +82,10 @@ public class MainHomeFragment extends BaseFragment implements JDHeaderView.Refre
 
         initPtrFrame();
         recyclerView = (RecyclerView) this.rootView.findViewById(R.id.recyclerView);
+        @SuppressLint("WrongConstant")
         GridLayoutManager gridLayoutManager = new GridLayoutManager(recyclerView.getContext(), 4, GridLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(gridLayoutManager);
-        recyclerView.addItemDecoration(new SpaceItemDecoration(ScreenUtil.dip2px(getContext(),3)));
+        recyclerView.addItemDecoration(new SpaceItemDecoration(ScreenUtil.dip2px(getContext(), 3)));
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
@@ -93,20 +95,17 @@ public class MainHomeFragment extends BaseFragment implements JDHeaderView.Refre
                     homeTitleBarBgView.setBackgroundColor(getResources().getColor(R.color.white));
                     if (Build.VERSION.SDK_INT > 10) {
                         homeTitleBarBgView.setAlpha(distanceY * 1.0f / ScreenUtil.dip2px(mActivity, 100));
-                    }
-                    else {
+                    } else {
                         DISTANCE_WHEN_TO_SELECTED = 20;
                     }
-                }
-                else {
+                } else {
                     homeTitleBarBgView.setBackgroundColor(0);
                 }
 
                 if (distanceY > ScreenUtil.dip2px(mActivity, DISTANCE_WHEN_TO_SELECTED) && !scanningLayout.isSelected()) {
                     scanningLayout.setSelected(true);
                     advisoryLayout.setSelected(true);
-                }
-                else if (distanceY <= ScreenUtil.dip2px(mActivity, DISTANCE_WHEN_TO_SELECTED) && scanningLayout.isSelected()) {
+                } else if (distanceY <= ScreenUtil.dip2px(mActivity, DISTANCE_WHEN_TO_SELECTED) && scanningLayout.isSelected()) {
                     scanningLayout.setSelected(false);
                     advisoryLayout.setSelected(false);
                 }
@@ -152,10 +151,9 @@ public class MainHomeFragment extends BaseFragment implements JDHeaderView.Refre
             @Override
             public void run() {
                 mPresenter.getHomeIndexData(flag);
-                if(flag == 0){
+                if (flag == 0) {
                     flag = 1;
-                }
-                else{
+                } else {
                     flag = 0;
                 }
             }
@@ -186,7 +184,7 @@ public class MainHomeFragment extends BaseFragment implements JDHeaderView.Refre
 
     @Override
     public void setHomeIndexData(HomeIndex homeIndex) {
-        if(homeIndex == null){
+        if (homeIndex == null) {
             mPtrFrame.refreshComplete();
             return;
         }
@@ -210,6 +208,7 @@ public class MainHomeFragment extends BaseFragment implements JDHeaderView.Refre
 
     /**
      * 当前recyclerView 的position的回调
+     *
      * @param position
      */
     @Override
@@ -222,13 +221,12 @@ public class MainHomeFragment extends BaseFragment implements JDHeaderView.Refre
         recyclerView.postDelayed(new Runnable() {
             @Override
             public void run() {
-                if (adapter.getData().size() >= 90){
+                if (adapter.getData().size() >= 90) {
                     adapter.loadMoreEnd(false);
-                }
-                else{
+                } else {
                     mPresenter.getRecommendedWares();
                 }
             }
-        },1000);
+        }, 1000);
     }
 }

@@ -1,8 +1,9 @@
 package com.sxjs.common.widget.autoscrollviewpager;
 
 import android.content.Context;
-import android.support.annotation.DrawableRes;
-import android.support.v4.view.ViewCompat;
+
+import androidx.annotation.DrawableRes;
+import androidx.core.view.ViewCompat;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.ImageView;

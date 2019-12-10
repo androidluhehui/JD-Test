@@ -1,9 +1,10 @@
 package com.sxjs.common.base.baseadapter.callback;
 
 import android.graphics.Canvas;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
+
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.sxjs.common.R;
 import com.sxjs.common.base.baseadapter.BaseItemDraggableAdapter;

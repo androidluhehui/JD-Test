@@ -1,14 +1,15 @@
 package com.example.app;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.sxjs.common.base.BaseActivity;
 
 /**
- * @author liuxiaodong
+ * @author admin
  * @date 2018/12/1
  * @description
  */

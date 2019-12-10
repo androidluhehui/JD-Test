@@ -1,9 +1,10 @@
 package com.sxjs.jd.composition.main;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentManager;
 import android.widget.FrameLayout;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentManager;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.sxjs.common.widget.bottomnavigation.BadgeItem;

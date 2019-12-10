@@ -1,8 +1,9 @@
 package com.sxjs.common.widget.percentlayout;
 
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.Nullable;
 
 /**
  * @author：admin on 2017/3/27 16:34.

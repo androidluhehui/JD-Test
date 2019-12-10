@@ -1,7 +1,8 @@
 package com.sxjs.common.util;
 
 import android.graphics.drawable.Drawable;
-import android.support.annotation.IdRes;
+
+import androidx.annotation.IdRes;
 
 import com.facebook.drawee.drawable.ScalingUtils;
 import com.facebook.drawee.generic.GenericDraweeHierarchy;

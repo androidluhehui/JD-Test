@@ -22,10 +22,11 @@ package com.sxjs.common.widget.percentlayout;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+
+import androidx.annotation.RequiresApi;
 
 import com.sxjs.common.R;
 

@@ -14,7 +14,7 @@ import com.sxjs.common.R;
 /**
  * Class description
  *
- * @author ashokvarma
+ * @author admin
  * @version 1.0
  * @see BottomNavigationTab
  * @since 19 Mar 2016

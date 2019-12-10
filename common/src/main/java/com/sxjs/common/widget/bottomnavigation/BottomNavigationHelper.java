@@ -16,7 +16,7 @@ import com.sxjs.common.R;
 /**
  * Class description : This is utils class specific for this library, most the common code goes here.
  *
- * @author ashokvarma
+ * @author admin
  * @version 1.0
  * @since 19 Mar 2016
  */

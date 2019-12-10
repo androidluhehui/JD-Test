@@ -1,7 +1,8 @@
 package com.sxjs.common.base.baseadapter.loadmore;
 
-import android.support.annotation.IdRes;
-import android.support.annotation.LayoutRes;
+
+import androidx.annotation.IdRes;
+import androidx.annotation.LayoutRes;
 
 import com.sxjs.common.base.baseadapter.BaseViewHolder;
 
@@ -91,14 +92,16 @@ public abstract class LoadMoreView {
      *
      * @return
      */
-    public abstract @LayoutRes int getLayoutId();
+    public abstract @LayoutRes
+    int getLayoutId();
 
     /**
      * loading view
      *
      * @return
      */
-    protected abstract @IdRes int getLoadingViewId();
+    protected abstract @IdRes
+    int getLoadingViewId();
 
     /**
      * load fail view

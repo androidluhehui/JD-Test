@@ -2,11 +2,12 @@ package com.sxjs.common.widget.view_switcher;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.LayoutRes;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
 import android.widget.ViewSwitcher;
+
+import androidx.annotation.LayoutRes;
 
 import com.sxjs.common.R;
 

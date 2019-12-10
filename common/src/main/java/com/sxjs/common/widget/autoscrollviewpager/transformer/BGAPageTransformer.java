@@ -1,12 +1,8 @@
 package com.sxjs.common.widget.autoscrollviewpager.transformer;
 
-import android.support.v4.view.ViewPager;
 import android.view.View;
 
-import static com.sxjs.common.widget.autoscrollviewpager.transformer.TransitionEffect.Alpha;
-import static com.sxjs.common.widget.autoscrollviewpager.transformer.TransitionEffect.Cube;
-import static com.sxjs.common.widget.autoscrollviewpager.transformer.TransitionEffect.Default;
-import static com.sxjs.common.widget.autoscrollviewpager.transformer.TransitionEffect.Rotate;
+import androidx.viewpager.widget.ViewPager;
 
 
 /**
